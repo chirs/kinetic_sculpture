@@ -1,9 +1,12 @@
-# kinetic sculpture
+## Kinetic Sculpture with Robert Zakarian
+## 
 
-Robert Zak?...
+## fine arts class creating moving sculptures.
 
-fine arts class creating moving sculptures.
-
-1st week -> crank and slider.
-
-2nd week?
+week 1: crank and slider
+week 2: cam
+week 3: scotch yoke
+weeks 4-?: roller chain
+weeks ??: gear thing
+weeks ??: strandbeest (jansen linkage / klann linkage)
+weeks ??: final project
