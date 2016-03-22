@@ -1,4 +1,4 @@
-https://heritagerobotics.wordpress.com/2014/02/26/python-gear-generator-for-freecad/
+# https://heritagerobotics.wordpress.com/2014/02/26/python-gear-generator-for-freecad/
 
 # Copyright 2013 Arno Wilhelm 
 #
