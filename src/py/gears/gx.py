@@ -89,14 +89,14 @@ def generate_involute_curve(radius, r_max, theta_max, steps=30):
         distance = math.sqrt(tx**2 + ty**2)
 
         if distance > r_max:
-            a = (r_max - rlast)/ (d - rlast)
+            a = (r_max - rlast)/ (distance - rlast)
             tx = x[-1] * (1.0-a) + tx*a
             ty = y[-1] * (1.0-a) + ty*a
 
             x.append(tx)
             y.append(ty)
 
-            ttheta = theta[-1]*(1.0-a) + math.atan2( ty, tx )*a
+            ttheta = theta[-1]*(1.0-a) + math.atan2( ty, tx ) * a
             theta.append(ttheta)
             break
 
@@ -252,6 +252,6 @@ def rhino_gear(diameter, pressure_angle, teeth, pitch):
 
 
 if __name__ == "__main__":
-    #print(rhino_gear(10, 20, 10, 8))
-    make_gear(10, 20, 10, 8)
+    print(rhino_gear(1, 20, 20, 12))
+    #make_gear(1, 20, 10, 8)
 
